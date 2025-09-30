@@ -1,0 +1,19 @@
+# Web framework (optional, for browser/server integration)
+fastapi>=0.116.2
+
+# Pipecat core + flows + cloud
+pipecat-ai-flows>=0.0.21
+pipecat-ai[cartesia,deepgram,local-smart-turn-v3,openai,openrouter,runner,silero,webrtc,websocket]>=0.0.85
+pipecatcloud>=0.2.4
+
+# HTTP requests
+requests>=2.0.0
+
+# Logging
+loguru>=0.7.2
+
+# Async helpers
+nest_asyncio>=1.6.0
+
+# Env var support
+python-dotenv>=1.0.1

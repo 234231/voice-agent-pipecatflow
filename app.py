@@ -212,7 +212,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 @app.get("/")
 async def index():
     # This page should contain your WebRTC JS client to connect to /api/offer
-    return FileResponse("static/voice.html")
+    return FileResponse("voice.html")
 
 # -------------------
 # WebRTC offer endpoint
